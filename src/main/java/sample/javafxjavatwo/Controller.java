@@ -13,6 +13,8 @@ public class Controller {
     @FXML
     Button btn;
 
+
+
     public void btnClickAction(ActionEvent actionEvent) {
         actionEvent.getSource();// ссылка на кнопку
         mainTextArea.appendText("pressed\n");
